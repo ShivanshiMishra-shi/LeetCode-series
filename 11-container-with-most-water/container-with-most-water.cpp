@@ -14,7 +14,7 @@ public:
             {
                 l++;
             }
-            else
+            else 
             {
                 r--;
             }
