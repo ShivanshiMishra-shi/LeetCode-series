@@ -3,14 +3,17 @@ class Solution
 public:
     int removeElement(vector<int>& nums, int val) 
     {
-        int k=0;
-        for(int n:nums)
+        int n=nums.size();
+        int slow=0;
+        for(int fast=0;fast<n;fast++)
         {
-            if(n!=val)
+            if(nums[fast]!=val)
             {
-                nums[k++]=n;
+                nums[slow]=nums[fast];
+                slow++;
+
             }
         }
-        return k;
+        return slow;
     }    
 };
