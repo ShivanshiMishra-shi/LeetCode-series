@@ -11,7 +11,6 @@ public:
             {
                 nums[slow]=nums[fast];
                 slow++;
-
             }
         }
         return slow;
