@@ -6,7 +6,7 @@ public:
             return false;
         }
         int original=x;
-        long long reverse=0;
+        long long  reverse=0;
         while(x!=0)
         {
             int digit=x%10;
