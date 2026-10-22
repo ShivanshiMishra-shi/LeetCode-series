@@ -8,7 +8,6 @@ public:
             if(i%10==nums[i])
             {
                 return i;
-                small=min(small,nums[i]);
             }
         }
         return -1;
